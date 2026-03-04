@@ -125,7 +125,7 @@ install.packages(c("ggplot2", "gridExtra"))
 
 ## Data and Code Availability
 
-- **Code:** All analytical scripts are archived in Zenodo ([DOI: 10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX)) and available at this GitHub repository
+- **Code:** All analytical scripts are archived in Zenodo (https://doi.org/10.5281/zenodo.18868228) and available at this GitHub repository
 - **Data:** Raw data are not publicly available due to participant privacy protections approved by the Institutional Ethics Committee of the Universidad Nacional del Callao. Data are available from the corresponding author upon reasonable request
 
 **Contact:** fabio.espichan.j@upch.pe
@@ -195,7 +195,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 This repository is archived in [Zenodo](https://zenodo.org/) to ensure long-term preservation and provide a citable DOI.
 
-**Archived version:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+**Archived version:** (https://doi.org/10.5281/zenodo.18868228)
 
 ### How to cite the code
 
