@@ -2,7 +2,7 @@
 
 [![R](https://img.shields.io/badge/R-4.3.3-blue.svg)](https://www.r-project.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18868228.svg)](https://doi.org/10.5281/zenodo.18868228)
 
 ## Overview
 
@@ -125,7 +125,7 @@ install.packages(c("ggplot2", "gridExtra"))
 
 ## Data and Code Availability
 
-- **Code:** All analytical scripts are archived in Zenodo (https://doi.org/10.5281/zenodo.18868228) and available at this GitHub repository
+- **Code:** All analytical scripts are archived in Zenodo ([DOI: 10.5281/zenodo.18868228](https://doi.org/10.5281/zenodo.18868228)) and available at this GitHub repository
 - **Data:** Raw data are not publicly available due to participant privacy protections approved by the Institutional Ethics Committee of the Universidad Nacional del Callao. Data are available from the corresponding author upon reasonable request
 
 **Contact:** fabio.espichan.j@upch.pe
@@ -195,7 +195,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 This repository is archived in [Zenodo](https://zenodo.org/) to ensure long-term preservation and provide a citable DOI.
 
-**Archived version:** (https://doi.org/10.5281/zenodo.18868228)
+**Archived version:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18868228.svg)](https://doi.org/10.5281/zenodo.18868228)
 
 ### How to cite the code
 
@@ -206,8 +206,8 @@ This repository is archived in [Zenodo](https://zenodo.org/) to ensure long-term
                   Determinants of Sleep Quality Across the Adult Life Course},
   year         = {2026},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.XXXXXXX},
-  url          = {https://doi.org/10.5281/zenodo.XXXXXXX}
+  doi          = {10.5281/zenodo.18868228},
+  url          = {https://doi.org/10.5281/zenodo.18868228}
 }
 ```
 
@@ -224,7 +224,7 @@ This repository is archived in [Zenodo](https://zenodo.org/) to ensure long-term
 
 | Version | Date | Description |
 |---------|------|-------------|
-| v1.0.0 | 2026-XX-XX | Initial release (manuscript submission) |
+| v1.0.0 | 2026-03-04 | Initial release (manuscript submission) |
 
 ## Acknowledgments
 
