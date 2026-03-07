@@ -38,7 +38,9 @@ The study evaluates biological and anthropometric predictors of poor sleep quali
 │   ├── 09_Component_Screening.R      # All 7 PSQI components analysis
 │   ├── 10_Friedman_Comparison.R      # Model comparison (Friedman + post-hoc)
 │   ├── 11_SMOTE_Justification.R      # AUC/Sensitivity/Specificity with vs without SMOTE
-│   └── 12_HL_Calibration.R          # Hosmer-Lemeshow calibration comparison
+│   ├── 12_HL_Calibration.R          # Hosmer-Lemeshow calibration comparison
+│   ├── 13_LR_Comp7_Exploratory.R    # Comp.7 (Daytime Dysfunction) LR analysis
+│   └── 14_MFA_Comp7.R               # Comp.7 × BMI MFA individual factor map
 │
 ├── figures/                           # Generated figures (main text)
 ├── supplementary/                     # Supplementary figures and tables
@@ -85,6 +87,12 @@ Raw data
   │
   ▼
 12_HL_Calibration.R ─────────► Calibration: 87% adequate without SMOTE vs 2% with SMOTE
+  │
+  ▼
+13_LR_Comp7_Exploratory.R ──► Comp.7 LR: Overweight OR = 2.44, p = 0.046 (Fig S7)
+  │
+  ▼
+14_MFA_Comp7.R ──────────────► Comp.7 × BMI MFA individual factor map (Fig S8)
 ```
 
 ## Requirements
@@ -182,8 +190,8 @@ If you use this code or methodology, please cite both the paper and the code:
                   Determinants of Sleep Quality Across the Adult Life Course},
   year         = {2026},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.XXXXXXX},
-  url          = {https://doi.org/10.5281/zenodo.XXXXXXX}
+  doi          = {10.5281/zenodo.18868228},
+  url          = {https://doi.org/10.5281/zenodo.18868228}
 }
 ```
 
@@ -224,7 +232,7 @@ This repository is archived in [Zenodo](https://zenodo.org/) to ensure long-term
 
 | Version | Date | Description |
 |---------|------|-------------|
-| v1.0.0 | 2026-03-04 | Initial release (manuscript submission) |
+| v1.0.0 | 2026-03-07 | Initial release (manuscript submission) |
 
 ## Acknowledgments
 
