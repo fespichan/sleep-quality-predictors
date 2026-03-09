@@ -232,7 +232,7 @@ This repository is archived in [Zenodo](https://zenodo.org/) to ensure long-term
 
 | Version | Date | Description |
 |---------|------|-------------|
-| v1.0.0 | 2026-03-09 | Initial release (manuscript submission) |
+| v1.0.1 | 2026-03-09 | Initial release (manuscript submission) |
 
 ## Acknowledgments
 
