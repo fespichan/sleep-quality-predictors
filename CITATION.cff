@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+authors:
+  - family-names: "Espichán"
+    given-names: "Fabio"
+    orcid: "https://orcid.org/0000-0001-8684-8114"
+    affiliation: "Universidad Peruana Cayetano Heredia"
+  - family-names: "Carbajal"
+    given-names: "Luz"
+    affiliation: "Universidad Peruana Cayetano Heredia"
+  - family-names: "Siccha Macassi"
+    given-names: "Ana Lucy"
+    affiliation: "Universidad Nacional del Callao"
+title: "Analytical code for: Biological and Anthropometric Determinants of Sleep Quality Across the Adult Life Course"
+version: 1.0.0
+doi: 10.5281/zenodo.18902596
+date-released: 2026-03-09
+url: "https://github.com/TU_USUARIO/sleep-quality-predictors"
+repository-code: "https://github.com/TU_USUARIO/sleep-quality-predictors"
+license: MIT
+type: software
+keywords:
+  - sleep quality
+  - PSQI
+  - machine learning
+  - multiple imputation
+  - body composition
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Espichán"
+      given-names: "Fabio"
+    - family-names: "Carbajal"
+      given-names: "Luz"
+    - family-names: "Siccha Macassi"
+      given-names: "Ana Lucy"
+  title: "Biological and Anthropometric Determinants of Sleep Quality Across the Adult Life Course: A Cross-Sectional Study with Multiple Imputation and Machine Learning"
+  journal: "Sleep Medicine"
+  year: 2026
+  status: submitted
