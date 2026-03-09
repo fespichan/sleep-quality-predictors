@@ -15,8 +15,8 @@ title: "Analytical code for: Biological and Anthropometric Determinants of Sleep
 version: 1.0.0
 doi: 10.5281/zenodo.18902596
 date-released: 2026-03-09
-url: "https://github.com/TU_USUARIO/sleep-quality-predictors"
-repository-code: "https://github.com/TU_USUARIO/sleep-quality-predictors"
+url: "https://github.com/fespichan/sleep-quality-predictors"
+repository-code: "https://github.com/fespichan/sleep-quality-predictors"
 license: MIT
 type: software
 keywords:
