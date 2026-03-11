@@ -37,6 +37,7 @@ library(ResourceSelection)
 library(patchwork)
 library(writexl)
 
+
 # Extract all imputations in long format include original data
 data_stacked <- complete(imputed_data, action = "long", include = TRUE)
 
@@ -406,7 +407,8 @@ write_xlsx(cv_summary, "Table_LR_Comp7_CV.xlsx")
 # =================================================================
 # STEP 7 — FIGURE S7: COMBINED 4-PANEL
 # =================================================================
-Table_LR_Comp7_Pooled_SMOTE <- Table_LR_Comp7_Pooled_SMOTE %>%
+Table_LR_Comp7_Pooled_NO_SMOTE<-readRDS("final_table_lr_comp7_no_smote.rds")
+Table_LR_Comp7_Pooled_NO_SMOTE <- Table_LR_Comp7_Pooled_NO_SMOTE %>%
   mutate(term = case_when(
     term == "bmicOverweight" ~ "Overweight",
     term == "bmicObesity"    ~ "Obesity",
@@ -416,7 +418,7 @@ Table_LR_Comp7_Pooled_SMOTE <- Table_LR_Comp7_Pooled_SMOTE %>%
 
 
 # Panel A: Forest Plot (No SMOTE OR)
-forest_data <- Table_LR_Comp7_Pooled_SMOTE %>%
+forest_data <- Table_LR_Comp7_Pooled_NO_SMOTE %>%
   filter(term != "(Intercept)") %>%
   mutate(
     Significance = case_when(
@@ -547,4 +549,3 @@ message(sprintf("Overweight OR (No SMOTE) = %.2f, p = %.4f",
                 table_no_smote$estimate[table_no_smote$term == "bmicOverweight"],
                 table_no_smote$p.value[table_no_smote$term == "bmicOverweight"]))
 message("========================================")
-
