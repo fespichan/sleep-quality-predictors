@@ -73,6 +73,29 @@ message("\n=== POOLED OR — WITHOUT SMOTE (PRIMARY) ===")
 print(table_no_smote)
 write_xlsx(as.data.frame(table_no_smote), "Table2_LR_Pooled_NoSMOTE.xlsx")
 
+# Pseudo-R² (Nagelkerke) averaged across imputed datasets
+
+pseudo_r2_nagelkerke <- numeric(n_imp)
+pseudo_r2_mcfadden   <- numeric(n_imp)
+
+for (i in 1:n_imp) {
+  model_i <- model_list_no_smote[[i]]
+  null_i  <- glm(psqi ~ 1, data = model_i$data, family = "binomial")
+  
+  n <- nrow(model_i$data)
+  
+  # McFadden R²
+  pseudo_r2_mcfadden[i] <- as.numeric(1 - (logLik(model_i) / logLik(null_i)))
+  
+  # Nagelkerke R²
+  cox_snell <- 1 - exp((logLik(null_i) - logLik(model_i)) * (2/n))
+  pseudo_r2_nagelkerke[i] <- as.numeric(cox_snell / (1 - exp(logLik(null_i) * (2/n))))
+}
+
+message(sprintf("\nPseudo-R² (McFadden):   %.3f (SD = %.3f)",
+                mean(pseudo_r2_mcfadden), sd(pseudo_r2_mcfadden)))
+message(sprintf("Pseudo-R² (Nagelkerke): %.3f (SD = %.3f)",
+                mean(pseudo_r2_nagelkerke), sd(pseudo_r2_nagelkerke)))
 # =================================================================
 # STEP 3 — TRAIN MODELS WITH SMOTE (PREDICTIVE)
 # =================================================================
@@ -473,4 +496,3 @@ message("H-L calibration: see 12_HL_Calibration.R")
 message("  Without SMOTE: mean p = 0.378, 87% adequate")
 message("  With SMOTE:    mean p = 0.005, 2% adequate")
 message("========================================")
-
