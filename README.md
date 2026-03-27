@@ -236,6 +236,4 @@ This repository is archived in [Zenodo](https://zenodo.org/) to ensure long-term
 
 ## Acknowledgments
 
-- Universidad Peruana Cayetano Heredia (UPCH)
-- Universidad Nacional del Callao
-- All study participants
+The authors thank the Faculty of Health Sciences and the Faculty of Physical Education at the Universidad Nacional del Callao for their support in participant recruitment and data collection. We also thank all participants who voluntarily contributed to this study.
