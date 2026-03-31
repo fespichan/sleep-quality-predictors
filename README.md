@@ -2,7 +2,7 @@
 
 [![R](https://img.shields.io/badge/R-4.3.3-blue.svg)](https://www.r-project.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18964489.svg)](https://doi.org/10.5281/zenodo.18964489)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19342609.svg)](https://doi.org/10.5281/zenodo.19342609)
 
 ## Overview
 
@@ -133,7 +133,7 @@ install.packages(c("ggplot2", "gridExtra"))
 
 ## Data and Code Availability
 
-- **Code:** All analytical scripts are archived in Zenodo ([DOI: 10.5281/zenodo.18964489](https://doi.org/10.5281/zenodo.18964489)) and available at this GitHub repository
+- **Code:** All analytical scripts are archived in Zenodo ([DOI: 10.5281/zenodo.19342609](https://doi.org/10.5281/zenodo.19342609)) and available at this GitHub repository
 - **Data:** Raw data are not publicly available due to participant privacy protections approved by the Institutional Ethics Committee of the Universidad Nacional del Callao. Data are available from the corresponding author upon reasonable request
 
 **Contact:** fabio.espichan.j@upch.pe
@@ -190,8 +190,8 @@ If you use this code or methodology, please cite both the paper and the code:
                   Determinants of Sleep Quality Across the Adult Life Course},
   year         = {2026},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.18964489},
-  url          = {https://doi.org/10.5281/zenodo.18964489}
+  doi          = {10.5281/zenodo.19342609},
+  url          = {https://doi.org/10.5281/zenodo.19342609}
 }
 ```
 
@@ -203,7 +203,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 This repository is archived in [Zenodo](https://zenodo.org/) to ensure long-term preservation and provide a citable DOI.
 
-**Archived version:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18964489.svg)](https://doi.org/10.5281/zenodo.18964489)
+**Archived version:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19342609.svg)](https://doi.org/10.5281/zenodo.19342609)
 
 ### How to cite the code
 
@@ -214,8 +214,8 @@ This repository is archived in [Zenodo](https://zenodo.org/) to ensure long-term
                   Determinants of Sleep Quality Across the Adult Life Course},
   year         = {2026},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.18964489},
-  url          = {https://doi.org/10.5281/zenodo.18964489}
+  doi          = {10.5281/zenodo.19342609},
+  url          = {https://doi.org/10.5281/zenodo.19342609}
 }
 ```
 
@@ -224,7 +224,7 @@ This repository is archived in [Zenodo](https://zenodo.org/) to ensure long-term
 1. Push all scripts to GitHub
 2. Link your GitHub account at [zenodo.org](https://zenodo.org)
 3. Go to Settings → GitHub and enable this repository
-4. In GitHub, create a Release (e.g., v1.2.0) with the tag `v1.2.0`
+4. In GitHub, create a Release (e.g., v1.4.0) with the tag `v1.4.0`
 5. Zenodo will automatically generate a DOI
 6. Update the DOI badge in this README and in the manuscript
 
@@ -232,8 +232,9 @@ This repository is archived in [Zenodo](https://zenodo.org/) to ensure long-term
 
 | Version | Date | Description |
 |---------|------|-------------|
-| v1..0 | 2026-03-11 | Initial release (manuscript submission) |
+| v1.4.0 | 2026-03-30 | Initial release (manuscript submission) |
 
 ## Acknowledgments
 
 The authors thank the Faculty of Health Sciences and the Faculty of Physical Education at the Universidad Nacional del Callao for their support in participant recruitment and data collection. We also thank all participants who voluntarily contributed to this study.
+
