@@ -299,7 +299,7 @@ datos_export <- datos %>%
     -hb_original, -bmi_original,
     -flag_bf, -flag_mm, -flag_water, -flag_hb,
     -flag_rel_bf_mm, -flag_rel_water, -flag_rel_bmi_bf,
-    -flag_relational, -expected_water
+    -flag_relational, -expected_water,-ide,-name,-bmi
   )
 
 write_xlsx(datos_export, "sleep_data_clean_for_imputation.xlsx")
@@ -321,4 +321,3 @@ message("  sleep_data_clean_for_imputation.xlsx")
 message("  sleep_data_clean_for_imputation.csv")
 message("  Audit_Report_Clinical_Flags.xlsx")
 message("========================================")
-
