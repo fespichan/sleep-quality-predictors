@@ -346,7 +346,7 @@ panel_b <- ggplot(calib_summary,
   annotate("text", x = 0.25, y = 0.9,
            label = sprintf("H-L, p = %.3f", hl_p_no_smote_for_plot),
            size = 4.5, fontface = "bold") +
-  labs(title = "B. Calibration Plot",
+  labs(title = "B. Calibration Plot (No Smote)",
        x = "Predicted Probability", y = "Observed Probability") +
   theme_minimal(base_size = 18) +
   theme(
