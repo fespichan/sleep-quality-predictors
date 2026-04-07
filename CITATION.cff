@@ -12,9 +12,9 @@ authors:
     given-names: "Ana Lucy"
     affiliation: "Universidad Nacional del Callao"
 title: "Analytical code for: Biological and Anthropometric Determinants of Sleep Quality Across the Adult Life Course"
-version: 1.0.0
+version: 1.5.0
 doi: 10.5281/zenodo.18902596
-date-released: 2026-03-09
+date-released: 2026-04-07
 url: "https://github.com/fespichan/sleep-quality-predictors"
 repository-code: "https://github.com/fespichan/sleep-quality-predictors"
 license: MIT
