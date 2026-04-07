@@ -5,7 +5,7 @@
 #
 # Project: Biological and Anthropometric Determinants of
 #          Sleep Quality Across the Adult Life Course
-# Journal: Sleep Medicine
+# Journal: Journal of Sleep Research
 #
 # Requires: data_stacked (from 02_Multiple_Imputation.R)
 #
@@ -218,4 +218,3 @@ message("Figures: 8 files (circle + individuals x 4 configs)")
 message("         + Fig_S8_MFA_Comp7_Individuals_bmic.tif")
 message("Tables:  4 Excel files")
 message("========================================")
-

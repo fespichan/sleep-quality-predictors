@@ -5,7 +5,7 @@
 #
 # Project: Biological and Anthropometric Determinants of
 #          Sleep Quality Across the Adult Life Course
-# Journal: Sleep Medicine
+# Journal: Journal of Sleep Research
 #
 # Input:  sleep_data_clean_for_imputation2.csv
 #         (output from 01_Clinical_Audit.R)
@@ -121,4 +121,3 @@ message("\nFile saved: Table1_BySex.docx")
 #  (n = 138), muscle mass (n = 127), waist circumference (n = 20),
 #  hemoglobin (n = 29). p-values from Wilcoxon rank-sum test
 #  (continuous) and Pearson's chi-squared test (categorical)."
-

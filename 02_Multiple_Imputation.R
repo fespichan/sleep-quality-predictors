@@ -5,7 +5,7 @@
 #
 # Project: Biological and Anthropometric Determinants of
 #          Sleep Quality Across the Adult Life Course
-# Journal: Sleep Medicine
+# Journal: Journal of Sleep Research
 #
 # Input:  sleep_data_clean_for_imputation.csv
 #         (output from 01_Clinical_Audit.R)
@@ -56,7 +56,7 @@ plot_pattern <- plot_pattern(sleep_raw_data) +
 
 ggsave("Fig_S1_Missing_Pattern.tif",
        plot = plot_pattern, device = "tiff",
-       width = 20, height = 15, units = "cm",
+       width = 20, height = 12, units = "cm",
        dpi = 1200, compression = "lzw")
 
 # =================================================================
@@ -374,4 +374,3 @@ message("  Fig_S2b_TracePlot_PSQI_Components.tif")
 message("  Fig_S2c_DensityPlot_Physiological.tif")
 message("  Fig_S2d_DensityPlot_PSQI_Components.tif")
 message("========================================")
-

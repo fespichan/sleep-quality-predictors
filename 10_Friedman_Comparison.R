@@ -5,7 +5,7 @@
 #
 # Project: Biological and Anthropometric Determinants of
 #          Sleep Quality Across the Adult Life Course
-# Journal: Sleep Medicine
+# Journal: Journal of Sleep Research
 #
 # Requires: auc_values_logit.rds (from 06_LR_Pooled_PSQI.R)
 #           auc_values_rf.rds    (from 07_RF_PSQI.R)

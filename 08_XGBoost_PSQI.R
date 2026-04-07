@@ -5,7 +5,7 @@
 #
 # Project: Biological and Anthropometric Determinants of
 #          Sleep Quality Across the Adult Life Course
-# Journal: Sleep Medicine
+# Journal: Journal of Sleep Research
 #
 # Requires: data_stacked (from 02_Multiple_Imputation.R)
 #           psqi levels: Good_Sleep / Poor_Sleep (from 07)
@@ -356,4 +356,3 @@ message(sprintf("H-L: mean p = %.3f (%s%% adequate)",
                 mean(hl_pvalues_xgb, na.rm = TRUE),
                 round(100 * mean(hl_pvalues_xgb > 0.05, na.rm = TRUE), 1)))
 message("========================================")
-

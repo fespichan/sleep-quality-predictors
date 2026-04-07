@@ -5,7 +5,7 @@
 #
 # Project: Biological and Anthropometric Determinants of
 #          Sleep Quality Across the Adult Life Course
-# Journal: Sleep Medicine
+# Journal: Journal of Sleep Research
 #
 # Requires: data_stacked (from 02_Multiple_Imputation.R)
 #
@@ -187,4 +187,3 @@ message("\nFiles saved:")
 message("  Table_S_HL_Calibration.xlsx")
 message("  Fig_S4_HL_Calibration.tif")
 message("========================================")
-

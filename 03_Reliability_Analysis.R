@@ -5,7 +5,7 @@
 #
 # Project: Biological and Anthropometric Determinants of
 #          Sleep Quality Across the Adult Life Course
-# Journal: Sleep Medicine
+# Journal: Journal of Sleep Research
 #
 # Requires: data_stacked (from 02_Multiple_Imputation.R)
 #
@@ -117,4 +117,3 @@ message(sprintf("  McDonald's omega total = %.2f (SD = %.3f)",
 message(sprintf("  Omega > alpha indicates heterogeneous factor loadings"))
 
 message("\nFile saved: Table_S2_PSQI_Reliability.xlsx")
-
